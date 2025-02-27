@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Lowtech_Website/static/css/main.772c96b7.css",
+    "main.js": "/Lowtech_Website/static/js/main.f24f6df2.js",
+    "static/js/453.ed3810f9.chunk.js": "/Lowtech_Website/static/js/453.ed3810f9.chunk.js",
+    "static/media/iconCart.png": "/Lowtech_Website/static/media/iconCart.eca5ee08f37494f3f691.png",
+    "index.html": "/Lowtech_Website/index.html",
+    "main.772c96b7.css.map": "/Lowtech_Website/static/css/main.772c96b7.css.map",
+    "main.f24f6df2.js.map": "/Lowtech_Website/static/js/main.f24f6df2.js.map",
+    "453.ed3810f9.chunk.js.map": "/Lowtech_Website/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.772c96b7.css",
+    "static/js/main.f24f6df2.js"
+  ]
+}
