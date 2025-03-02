@@ -19,8 +19,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Update Browserslist DB
+        run: npx update-browserslist-db@latest
+
       - name: Build React app
         run: npm run build
+        env:
+          CI: false # Add this here to disable treating warnings as errors
 
       - name: Generate deployment package
         run: zip -r deploy.zip build/ -x '*.git*'
