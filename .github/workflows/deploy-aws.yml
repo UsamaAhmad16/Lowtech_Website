@@ -25,3 +25,4 @@ jobs:
           existing_bucket_name: lowtech-webshop-frontend
           region: eu-central-1
           deployment_package: deploy.zip
+          use_existing_version_if_available: true
