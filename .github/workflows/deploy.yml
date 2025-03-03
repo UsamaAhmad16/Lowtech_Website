@@ -45,8 +45,6 @@ jobs:
           cp package.json deploy-package/
           cd deploy-package
           npm install
-          mkdir -p .ebextensions
-          cp -r ../.ebextensions/options.config .ebextensions/ || echo "No options.config found"
           zip -r ../app.zip .
 
       # Step 7: Deploy to Elastic Beanstalk
