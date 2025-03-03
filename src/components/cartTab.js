@@ -554,7 +554,7 @@ const CartTab = () => {
 
             {/* Total Price */}
             <div className='flex justify-between mt-6 pt-4 border-t border-gray-600'>
-                <strong className='text-xl'>Total:</strong>
+                <strong className='text-xl'>Total Price:</strong>
                 <strong className='text-xl'>${orderSummary.totalPrice.toFixed(2)}</strong>
             </div>
 
