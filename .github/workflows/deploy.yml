@@ -60,7 +60,7 @@ jobs:
           version_label: ${{ github.sha }}  # Unique version label (commit SHA)
           deployment_package: app.zip
           wait_for_deployment: true  # Wait for deployment to complete
-          use_existing_version_if_available: true
+          use_existing_version_if_available: false
 
       # Step 8: Output deployment status
       - name: Deployment status
