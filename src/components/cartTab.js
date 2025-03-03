@@ -563,7 +563,7 @@ const CartTab = () => {
                 onClick={closeSuccessModal}
                 className='bg-[#3498DB] text-white px-6 py-3 rounded-lg hover:bg-[#2980B9] transition-all duration-300 w-full mt-6'
             >
-                Close
+                Exit
             </button>
         </div>
     </div>

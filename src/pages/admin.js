@@ -548,7 +548,7 @@ const Admin = () => {
         <div>
           <label className="block text-sm font-medium">Product Description</label>
           <textarea
-            name="Desc"
+            name="description"
             value={product.description}
             onChange={handleInputChange}
             className="w-full p-2 border rounded"
@@ -561,7 +561,7 @@ const Admin = () => {
           <label className="block text-sm font-medium">Price</label>
           <input
             type="number"
-            name="Amount"
+            name="price"
             value={product.price}
             onChange={handleInputChange}
             className="w-full p-2 border rounded"
