@@ -44,7 +44,6 @@ jobs:
           cp server.js deploy-package/
           cp package.json deploy-package/
           mkdir -p deploy-package/.ebextensions
-          # Copy all .ebextensions files (including options.config)
           cp -r .ebextensions/*.config deploy-package/.ebextensions/ || echo "No additional .ebextensions files found"
           cd deploy-package
           zip -r ../app.zip .
